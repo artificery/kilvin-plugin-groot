@@ -1,0 +1,32 @@
+{
+    "name": "artificery/kilvin-plugin-groot",
+    "authors": [
+        {
+            "name": "Paul Burdick",
+            "email": "paul@reedmaniac.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Kilvin\\Plugins\\Groot\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kilvin\\Plugins\\Groot\\Tests\\": "src/tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kilvin\\Plugins\\Groot\\Providers\\GrootServiceProvider"
+            ]
+        }
+    }
+}
