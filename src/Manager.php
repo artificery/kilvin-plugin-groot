@@ -10,7 +10,6 @@ use Kilvin\Exceptions\PluginFailureException;
 class Manager extends BaseManager
 {
     protected $version	= '0.0.1';
-    protected $build_date  = '20181203';
     protected $name;
     protected $description;
     protected $developer = 'Paul Burdick';
